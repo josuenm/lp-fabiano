@@ -122,11 +122,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 body header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
+  position: relative;
   width: 100%;
   padding: 0.5rem 10rem;
   text-align: center;
@@ -175,11 +171,11 @@ body section.safe-zone {
   margin: 0 auto;
 }
 body section:nth-of-type(1) {
-  padding: 7rem 0 2rem 0;
+  padding: 2rem 0;
 }
 @media (max-width: 767.98px) {
   body section:nth-of-type(1) {
-    padding: 13rem 0 2rem 0;
+    padding: 2rem 0;
   }
 }
 body section:nth-of-type(1) .headline {
